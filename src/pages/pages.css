@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;400&display=swap');
+
+.nvbar {
+  box-shadow: 2px 2px 5px lightblue;
+  border-radius: 8px;
+}
+
+.title,
+.home-title {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Comfortaa', sans-serif;
+  letter-spacing: 2px;
+}
+
+.conclusion {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Comfortaa', sans-serif;
+  letter-spacing: 2px;
+}
+
+.home-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.list-item {
+  margin-top: 50px;
+  padding: 15px 25px;
+  background: rgb(35, 58, 77);
+  border-radius: 15px;
+  box-shadow: 5px 6px 6px rgba(13, 29, 44, 0.523);
+}
+
+.keywords {
+  border: 1px solid rgba(95, 126, 158, 0.5);
+  color: rgba(183, 183, 184, 0.5);
+  box-shadow: 2px 2px 6px rgba(26, 55, 83, 0.5);
+  border-radius: 14px;
+  text-align: center;
+  max-width: min-content;
+  padding: 3px 20px;
+  max-height: min-content;
+}
+
+.keywords:hover {
+  background: rgb(48, 74, 88);
+  cursor: pointer;
+  color: white;
+}
+
+.form-input {
+  background-color: rgba(0, 0, 0, 0.552);
+}
+
+.searchbar {
+  background-color: transparent;
+  width: 300px;
+}
